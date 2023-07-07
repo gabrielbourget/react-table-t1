@@ -1,10 +1,14 @@
-import Image from 'next/image'
-import BasicTable from '@/components/BasicTable'
+"use client";
 
-export default function Home() {
+import React from 'react'
+import TablePage from "@/components/TablePage"
+
+const page = () => {
   return (
     <div>
-      <BasicTable/>
+      <TablePage />
     </div>
   )
 }
+
+export default page
